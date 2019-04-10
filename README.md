@@ -10,12 +10,12 @@ This plugin adds [Paypal](https://paypal.com//) support to Play! Framework 1 app
 
 ```
 require:
-    - paypal -> paypal 1.0.0
+    - paypal -> paypal 1.1.0
 
 repositories:
-    - sismics:
-        type:       http
-        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+    - sismicsNexusRaw:
+        type: http
+        artifact: "https://nexus.sismics.com/repository/sismics/[module]-[revision].zip"
         contains:
             - paypal -> *
 
