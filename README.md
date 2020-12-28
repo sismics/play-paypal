@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-paypal.svg?style=flat-square)](https://github.com/sismics/play-paypal/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-paypal plugin
 
 This plugin adds [Paypal](https://paypal.com//) support to Play! Framework 1 applications.
@@ -10,7 +13,7 @@ This plugin adds [Paypal](https://paypal.com//) support to Play! Framework 1 app
 
 ```
 require:
-    - paypal -> paypal 1.1.0
+    - paypal -> paypal 1.2.0
 
 repositories:
     - sismicsNexusRaw:
